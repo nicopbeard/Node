@@ -3,6 +3,10 @@
 ## Due: Tuesday, October 27, 2020 at 11:59 PM
 ## Please be sure in write your name and Lehigh e-mail address in this README before you submit.
 
+Nicolas Beard - npb221
+
+The frontend part of my code in main.js sends hardcoded requests for post, put, and delete with an easy sample case. I output everything to the console on the frontend. I've added a lot of comments to users.js so it should be fairly easy to follow.
+
 In this assignment, you will use Node.js and Express.js to create your own REST API for users. You will also write some frontend javascript code to test your REST API.
 
 All the code and packages you need is in this GitHub Classroom repo. Do not install any other packages.
