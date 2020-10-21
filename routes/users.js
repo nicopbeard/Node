@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
     var counter = 0;
     for(var i = 0; i < users.length; i++)
     {
-      if(users[i].Name === req.query.search || users[i].Bio === req.query.search)
+      if(users[i].Name.includes(req.query.search) || users[i].Bio.includes(req.query.search))
       {
         counter = 1;
         retUsers.push(users[i]);
